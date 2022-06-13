@@ -1,0 +1,256 @@
+main > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    background-color: #f5f5f5;
+    font-size: .9em;
+    height: 60px;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    content: '';
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 2px 4px;
+    background: transparent;
+}
+
+a.asc:after {
+    border-bottom: solid 7px #212529;
+    border-top-width: 0;
+}
+
+a.desc:after {
+    border-top: solid 7px #212529;
+    border-bottom-width: 0;
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.nav-item {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding-top: 7px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 767px) {
+    .nav li > form > button.logout {
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 0;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+}
+
+.login-page {
+    width: 360px;
+    /* padding: 8% 0 0; */
+    margin: auto;
+}
+
+.form {
+    /* position: relative; */
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.reg-input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #ffd1dc;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #000000;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active, .form button:focus {
+    background: #ffd1dc;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container .info span .fa {
+    color: #EF3B3A;
+}
+
+.myNav {
+    max-height: 56px;
+    background-color: #A62C48 !important;
+    border: none;
+}
+
+.site-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    flex-wrap: wrap;
+}
+
+.admin-card {
+    width: 14rem;
+    background-color: #ffd1dc;
+    height: 13rem;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.admin-card-header {
+    display: flex;
+    height: 4rem;
+    color: #000;
+    text-decoration: none;
+    /* background-color: #000; */
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-card-info {
+    display: flex;
+    height: 9rem;
+    text-align: center;
+    color: #000;
+    align-items: center;
+}
+
+.site-about a {
+    text-decoration: none;
+}
+
+.site-busket {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.minus {color: #000;}
+
+.plus {
+    color: #000;
+    /* font-size: 15px; */
+}
+
+.site-preview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

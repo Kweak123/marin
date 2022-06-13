@@ -1,0 +1,147 @@
+.site-catalog {
+    width: 100%;
+    display: flex;
+}
+
+.params-list {
+    width: 300px;
+    margin-top: 40px;
+    padding: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 20px;
+    height: 10rem;
+    background-color: #ffd1dc;
+}
+
+.params-block {
+    /* height: 400px; */
+}
+
+
+.prod-render-fild {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.params_dropdown {
+    width: 200px;
+    padding-left: 5px;
+}
+
+.btn-param-block {
+    display: flex;
+    margin-top: 3rem;
+    /* background-color: #ffd1dc; */
+    justify-content: center;
+}
+
+.product-cart {
+    width: 250px;
+    height: 540px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.prod-img {
+    width: 250px;
+    height: 300px;
+}
+
+.product-cart-titles {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #f5a4b2;
+}
+
+.btn:focus {
+    background-color: #f5a4b2;
+}
+
+.btn:active {
+    background-color: #f5a4b2;
+}
+
+.paramBtn {
+    background-color: #ffd1dc;
+    color: #000;
+    background-color: #f690a9;
+}
+
+.lvl-container {
+    margin-bottom: 2rem;
+}
+
+.lvl-container button {
+    margin-right: 20px;
+}
+
+.lvl-card {
+    height: 400px;
+    background-position: center;
+    width: 40%;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    background-size: cover;
+}
+
+.lvl-card2 {
+    height: 400px;
+    background-position: center;
+    width: 100%;
+    margin-right: 15rem;
+    /* margin-left: 15rem; */
+    background-size: cover;
+}
+
+@media screen and (max-width: 420px){
+    .lvl-card{
+        width: 70%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .photoset-lvl-card{
+        flex-wrap: wrap;
+    }
+}
+
+.ctlg-card {
+    display: flex;
+    justify-content: center;
+}
+
+.myBtnLink {
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.myBtnLink:hover {
+    background-color: transparent;
+}
+
+.myBtnLink:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.buyBtn {
+    margin-top: 1rem;
+    border: none;
+    width: 300px !important;
+    background-color: #f690a9;
+    height: 50px;
+    border-radius: 20px;
+}
